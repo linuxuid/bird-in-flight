@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, Roboto, Verdana, sans-serif;
+    background: rgb(17, 16, 16);
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* header */
+header {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 20px;
+    text-align: center;
+}
+
+header .menu .right_block {
+    margin-right: 2px;
+    float: right;
+}
+
+header .menu form {
+    position: relative;
+    left: 342px;
+    bottom: 31px;
+}
+
+header .menu form button {
+    cursor: pointer;
+    background-color: rgb(199, 3, 3);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+header .menu form button:hover {
+    background-color: azure;
+    color: black;
+    transition: 0.5s;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background: rgb(0, 162, 173);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .menu a:hover 
+{
+    background: rgb(56, 178, 187);
+}
+
+header .menu a:hover {
+    color: rgb(223, 201, 0);
+    transition: 0.5s;
+}
+
+header .border {
+    color: white;
+}
+
+/* content */
+main {
+	display: flex;
+    min-height: calc(99.8vh - 70px);
+}
+
+main .content {
+	width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+	height: 700px;
+	padding-top: 20px;
+    color: white;
+}
+
+/* main .left {
+	width: 200px;
+	margin-right: 20px;
+	padding: 20px;
+	border: 1px solid black;
+} */
+
+/* footer */
+footer {
+	width: 100%;
+    margin-top: -10px;
+	padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+}
+
+footer a {
+    color: red;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: rgb(50, 250, 133);
+    transition: 0.5s;
+}
+

@@ -1,0 +1,63 @@
+/* Common Properties */
+main .content p, main .content .auth_links, header, main .content .userData {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+
+/* content */
+main {
+    min-height: calc(95vh - 70px);
+}
+
+main .content {
+    text-align: center;
+}
+
+main .content h2 {
+    margin-top: 90px;
+}
+
+main .content p {
+    font-size: 15px;
+    width: 600px;
+    font-family: cursive;
+}
+
+main .content p > span {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+main .content .auth_links {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+main .content .auth_links a {
+    color: rgb(13, 126, 255);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+main .content .userData {
+    font-family: cursive;
+    margin-top: 5px;
+    width: 700px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+main .content .userData span a 
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+
+main .content img {
+    width: 50%;
+}

@@ -1,0 +1,64 @@
+body {
+    background: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.wrapper {
+    margin: 5px auto;
+    width: 600px;
+    text-align: center;
+}
+
+.wrapper .top {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.wrapper .top h2 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.wrapper .top p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wrapper .content img {
+    width: 100%;
+}
+
+.wrapper .content p {
+    font-size: 15px;
+}
+
+.wrapper a {
+    color: red;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wrapper a:hover {
+    color: brown;
+    transition: 0.5s;
+}
+
+.wrapper .link-register {
+    float: right;
+    margin-bottom: 20px
+}
+
+/* adaptive */
+@media (max-width: 600px){
+    .wrapper {
+        margin: 5px auto;
+        width: 100%;
+    }
+}
+
+
